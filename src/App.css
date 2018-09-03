@@ -1,0 +1,87 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 50vh;
+  right: 0;
+  z-index: 1;
+  width: 100px;
+  height: 50px;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: capitalize;
+  background-color: darkblue;
+  color: white;
+}
+
+.body {
+  min-height: calc(75vh * 4);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-end;
+}
+
+.box {
+  width: 100vw;
+  height: 75vh;
+  text-align: center;
+  margin: 0;
+}
+
+.invisible {
+  background-color: darkblue;
+  color: white;
+}
+
+.stageOne {
+  background-color: skyblue;
+  color: white;
+}
+
+.stageTwo {
+  background-color: blueviolet;
+  color: white;
+}
+
+.stageThree {
+  background-color: lavender;
+  color: black;
+}
+
+.stageFour {
+  background-color: purple;
+  color: white;
+}
+
+.interstitial {
+  background-image: url('./violet.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.violet {
+  background-image: url('./violet.jpg');
+  height: 40vh;
+}
+
+.blue {
+  background-image: url('./bigblue.jpg');
+  color: white;
+}
+.hidden {
+  height: 100vh;
+}
+
+p {
+  width: 25%;
+  text-align: left;
+  padding: 0 16px;
+}
